@@ -24,4 +24,4 @@ else:
 		exists = tcp.recv(1024)
 
 		if "252" in str(exists): #printa somente usuarios validos
-			print(exists)
+			print("Usuario {} encontrado".format(i.rsplit()[0]))
